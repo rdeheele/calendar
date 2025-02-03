@@ -36,6 +36,6 @@ class CalendarEventLinkMixin(models.AbstractModel):
                 ("res_model", "=", self._name),
                 ("res_id", "=", self.id),
             ],
-            "view_mode": "calendar,tree,form",
+            "view_mode": "calendar,list,form",
             "context": context,
         }
